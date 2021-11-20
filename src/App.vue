@@ -1,24 +1,20 @@
 <template>
   <navigation />
   <main id="main" ref="main" tabindex="-1" class="page">
-    <router-view/>
+    <router-view />
   </main>
 </template>
 
 <script>
-import Navigation from '@/components/Navigation';
+import Navigation from '@/components/Navigation.vue';
 
 export default {
   name: 'HelloWorld',
   components: {
-    navigation: Navigation
+    navigation: Navigation,
   },
   props: {
-    msg: String
+    msg: String,
   },
-}
+};
 </script>
-
-<style lang="scss">
-
-</style>

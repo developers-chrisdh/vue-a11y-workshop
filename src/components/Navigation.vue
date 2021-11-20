@@ -1,49 +1,53 @@
 <template>
   <nav id="nav">
-    <router-link to="#main" ref="skipLink" class="skip-link">Naar hoofdinhoud</router-link>
+    <router-link ref="skipLink" to="#main" class="skip-link">
+      Naar hoofdinhoud
+    </router-link>
     <router-link to="/">
       <logo />
     </router-link>
     <template v-for="link in navLinks" :key="link.path">
-      <router-link :to="link.path">{{ link.title }}</router-link> |
+      <router-link :to="link.path">
+        {{ link.title }}
+      </router-link>
+      |
     </template>
   </nav>
 </template>
 
 <script>
 // import { ref } from 'vue'
-import Logo from '@/components/Logo';
-
+import Logo from '@/components/Logo.vue';
 
 const navLinks = [
   {
     path: '/',
-    title: 'Home'
+    title: 'Home',
   },
   {
     path: '/intro',
-    title: 'Intro'
+    title: 'Intro',
   },
   {
     path: '/voiceover',
-    title: 'VoiceOver'
+    title: 'VoiceOver',
   },
   {
     path: '/theory',
-    title: 'Theorie'
+    title: 'Theorie',
   },
   {
     path: '/opdracht-1',
-    title: 'Opdracht 1'
+    title: 'Opdracht 1',
   },
   {
     path: '/opdracht-2',
-    title: 'Opdracht 2'
+    title: 'Opdracht 2',
   },
   {
     path: '/opdracht-3',
-    title: 'Opdracht 3'
-  }
+    title: 'Opdracht 3',
+  },
 ];
 
 export default {
@@ -52,13 +56,11 @@ export default {
   },
   data() {
     return {
-      navLinks
+      navLinks,
     };
   },
   watch: {
-    $route: function() {
-      console.log('route watched', this.$route, this.$refs, this.$refs.skipLink);
-
+    $route: function () {
       this.$nextTick(() => {
         if (this.$route.hash === '#main') {
           document.querySelector('#main').focus();
@@ -69,9 +71,9 @@ export default {
           this.$refs.skipLink.$el.focus();
         }
       });
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">

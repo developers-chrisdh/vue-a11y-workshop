@@ -2,19 +2,23 @@
   <div class="program ml-auto">
     <table class="table-auto">
       <thead>
-      <tr>
-        <th>Programma</th>
-        <th></th>
-      </tr>
+        <tr>
+          <th>Programma</th>
+          <th />
+        </tr>
       </thead>
       <tbody>
-      <tr v-for="item in programItems" :key="item.title">
-        <td>
-          <router-link v-if="item.path" :to="item.path">{{ item.title }}</router-link>
-          <template v-else>{{ item.title }}</template>
-        </td>
-        <td>{{ item.dur }}</td>
-      </tr>
+        <tr v-for="item in programItems" :key="item.title">
+          <td>
+            <router-link v-if="item.path" :to="item.path">
+              {{ item.title }}
+            </router-link>
+            <template v-else>
+              {{ item.title }}
+            </template>
+          </td>
+          <td>{{ item.dur }}</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -28,9 +32,8 @@ export default {
       required: true,
     },
   },
-}
+};
 </script>
-
 
 <style lang="scss">
 .program {
@@ -51,7 +54,8 @@ export default {
     border-bottom: 2px solid #999;
   }
 
-  td, th {
+  td,
+  th {
     padding: 8px;
   }
 
