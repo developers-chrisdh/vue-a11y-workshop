@@ -1,14 +1,7 @@
 <template>
+  <task-one-story />
   <div class="prose">
-    <h1>Uitwerking Opdracht 1</h1>
-
-    <div class="userstory">
-      <strong>Als</strong> gebruiker met een visuele beperking<br />
-      <strong>wil ik</strong> een dialoog zien waar ik mijn e-mail adres kan
-      invullen<br />
-      <strong>zodat</strong> mij kan inschrijven voor een nieuwsbrief.
-    </div>
-
+    <hr />
     <p>Klik op de button om je in te schrijven voor de nieuwsbrief</p>
     <button class="button" aria-label="Open de dialoog" @click="showModal">
       Open
@@ -37,7 +30,12 @@
 </template>
 
 <script>
+import TaskOneStory from './TaskOneStory.vue';
+
 export default {
+  components: {
+    TaskOneStory,
+  },
   data() {
     return {
       modalIsOpen: false,

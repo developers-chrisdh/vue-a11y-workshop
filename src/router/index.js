@@ -2,10 +2,11 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Intro from '../views/Intro.vue';
 import VoiceOver from '@/views/VoiceOver.vue';
-import AssignmentOne from '@/views/AssignmentOne.vue';
-import AssignmentOneSolution from '@/views/AssignmentOneSolution.vue';
-import AssignmentTwo from '@/views/AssignmentTwo.vue';
-import AssignmentThree from '@/views/AssignmentThree.vue';
+import TaskOne from '@/views/TaskOne/TaskOne.vue';
+import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
+import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
+import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
+import TaskThree from '@/views/AssignmentThree.vue';
 
 const routes = [
   {
@@ -25,23 +26,28 @@ const routes = [
   },
   {
     path: '/opdracht-1',
-    name: 'AssignmentOne',
-    component: AssignmentOne,
+    name: 'TaskOne',
+    component: TaskOne,
   },
   {
     path: '/opdracht-1-solution',
-    name: 'AssignmentOneSolution',
-    component: AssignmentOneSolution,
+    name: 'TaskOneSolution',
+    component: TaskOneSolution,
   },
   {
     path: '/opdracht-2',
-    name: 'AssignmentTwo',
-    component: AssignmentTwo,
+    name: 'TaskTwo',
+    component: TaskTwo,
+  },
+  {
+    path: '/opdracht-2-solution',
+    name: 'TaskTwoSolution',
+    component: TaskTwoSolution,
   },
   {
     path: '/opdracht-3',
-    name: 'AssignmentThree',
-    component: AssignmentThree,
+    name: 'TaskThree',
+    component: TaskThree,
   },
 ];
 

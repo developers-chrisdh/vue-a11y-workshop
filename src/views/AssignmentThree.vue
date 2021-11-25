@@ -4,8 +4,8 @@
 
     <div class="userstory">
       <strong>Als</strong> gebruiker met een visuele beperking<br />
-      <strong>wil ik</strong> een skiplink
-      tegenkomen als eerste focusbare element<br />
+      <strong>wil ik</strong> een skiplink tegenkomen als eerste focusbare
+      element<br />
       <strong>zodat</strong> efficient kan navigeren naar de hoofdinhoud
     </div>
 
@@ -13,6 +13,11 @@
     <ul>
       <li>Het element is niet zichtbaar als het geen focus heeft</li>
       <li>Als er op geklikt krijgt de main content zichtbare focus</li>
+    </ul>
+
+    <h2>Bonuspunten</h2>
+    <ul>
+      <li>...</li>
     </ul>
 
     <router-link to="/opdracht-3-solution" class="button mt-8 mr-2">

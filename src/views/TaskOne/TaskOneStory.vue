@@ -22,12 +22,5 @@
       <li>De dialoog moet gesloten kunnen worden met de escape-key</li>
       <li>The tab order wraps</li>
     </ul>
-
-    <router-link to="/opdracht-1-solution" class="button mt-8 mr-2">
-      <strong>Opdracht 1 Uitwerking</strong>
-    </router-link>
-    <router-link to="/opdracht-2" class="button mt-8">
-      Start&nbsp;<strong>Opdracht 2</strong>
-    </router-link>
   </div>
 </template>
