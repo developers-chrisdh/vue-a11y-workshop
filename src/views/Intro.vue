@@ -17,8 +17,17 @@
 
     <h2>Standaarden</h2>
     <ul>
-      <li>WCAG</li>
-      <li>ARIA</li>
+      <li>
+        <a href="https://www.w3.org/TR/WCAG21/"
+          >WCAG - Web Content Accessibility Guidelines</a
+        >
+      </li>
+      <li>
+        <a href="https://www.w3.org/TR/wai-aria/"
+          >WAI-ARIA - Web Accessibility Initiative – Accessible Rich Internet
+          Applications</a
+        >
+      </li>
     </ul>
 
     <router-link to="/voiceover" tag="button" class="button mt-4">

@@ -4,8 +4,9 @@
 
     <div class="userstory">
       <strong>Als</strong> gebruiker met een visuele beperking<br />
-      <strong>wil ik</strong> in een accordion een multi-stap formulier kunnen invullen<br />
-      <strong>zodat</strong> mijn gegevens kan opgeven
+      <strong>wil ik</strong> in een accordion een multi-stap formulier kunnen
+      invullen<br />
+      <strong>zodat</strong> ik mijn gegevens kan opgeven
     </div>
 
     <h2>Beschrijving</h2>

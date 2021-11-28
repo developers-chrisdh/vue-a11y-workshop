@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Intro from '../views/Intro.vue';
 import VoiceOver from '@/views/VoiceOver.vue';
+import Theorie from '@/views/Theorie.vue';
 import TaskOne from '@/views/TaskOne/TaskOne.vue';
 import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
 import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
@@ -23,6 +24,11 @@ const routes = [
     path: '/voiceover',
     name: 'VoiceOver',
     component: VoiceOver,
+  },
+  {
+    path: '/theorie',
+    name: 'Theory',
+    component: Theorie,
   },
   {
     path: '/opdracht-1',

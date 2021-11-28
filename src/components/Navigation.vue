@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav">
+  <nav id="nav" aria-label="Hoofdnavigatie">
     <router-link ref="skipLink" to="#main" class="skip-link">
       Naar hoofdinhoud
     </router-link>
@@ -33,7 +33,7 @@ const navLinks = [
     title: 'VoiceOver',
   },
   {
-    path: '/theory',
+    path: '/theorie',
     title: 'Theorie',
   },
   {
@@ -84,6 +84,7 @@ export default {
   opacity: 0;
   background-color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.85);
   transform: translateY(-300%);
   transition: opacity 300ms, transform 300ms;
 

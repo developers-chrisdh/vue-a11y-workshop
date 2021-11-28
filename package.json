@@ -7,11 +7,13 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier .  --write"
+    "format": "prettier ./src  --write"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "prismjs": "^1.25.0",
     "vue": "^3.2.16",
+    "vue-prism-component": "^2.0.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {

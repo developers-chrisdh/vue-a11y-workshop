@@ -1,8 +1,15 @@
 <template>
   <navigation />
-  <main id="main" ref="main" tabindex="-1" class="page">
+  <main
+    id="main"
+    ref="main"
+    tabindex="-1"
+    class="page"
+    aria-label="Hoofdinhoud"
+  >
     <router-view />
   </main>
+  <div id="portal-target"></div>
 </template>
 
 <script>
