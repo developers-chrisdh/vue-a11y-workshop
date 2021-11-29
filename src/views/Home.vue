@@ -10,7 +10,8 @@
       <h3>Wat leer je?</h3>
       <p>
         In de workshop krijg je een aantal vraagstukken voorgelegd in de vorm
-        van "user stories".
+        van "user stories". Via deze opdrachten leer je hoe je verschillende
+        a11y technieken in de praktijk brengt.
       </p>
     </div>
     <workshop-overview :program-items="programItems" />

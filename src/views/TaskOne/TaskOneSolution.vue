@@ -21,14 +21,24 @@
         ref="dialog"
         :class="modalIsOpen ? 'show' : ''"
       >
-        <button class="close" ref="closeButton" @click="closeModal" aria-label="Knop sluiten">
+        <button
+          class="close"
+          ref="closeButton"
+          @click="closeModal"
+          aria-label="Knop sluiten"
+        >
           &times;
         </button>
         <div class="modal-heading">
           <h2>Modal window</h2>
         </div>
         <p>Schrijf je in voor de nieuwbrief</p>
-        <input type="text" name="email" placeholder="E-mail" aria-label="Vul je E-mail in" />
+        <input
+          type="text"
+          name="email"
+          placeholder="E-mail"
+          aria-label="Vul je E-mail in"
+        />
 
         <div class="modal-footer mt-auto">
           <button class="button mr-auto">Bevestig inschrijven</button>

@@ -15,6 +15,7 @@
         :class="isExpanded(0) ? 'open' : ''"
         @click="toggleSection(0)"
         :aria-expanded="isExpanded(0)"
+        :aria-disabled="isExpanded(0)"
         aria-controls="section-1"
       >
         1. Persoonlijke informatie
@@ -39,6 +40,7 @@
         :class="isExpanded(1) ? 'open' : ''"
         @click="toggleSection(1)"
         :aria-expanded="isExpanded(1)"
+        :aria-disabled="isExpanded(1)"
         aria-controls="section-2"
       >
         2. Factuuradres
@@ -70,6 +72,7 @@
         :class="isExpanded(2) ? 'open' : ''"
         @click="toggleSection(2)"
         :aria-expanded="isExpanded(2)"
+        :aria-disabled="isExpanded(2)"
         aria-controls="section-3"
       >
         3. Verzendadres
@@ -106,6 +109,14 @@
 
   <div class="prose">
     <h2>Aandachtspunten</h2>
+    <ul>
+      <li>aria-expanded om aan te geven dat stap geopend is</li>
+      <li>aria-disabled om aan te geven dat button geen actie meer uitvoert</li>
+      <li>
+        aria-controls om relatie tussen tussen button en panel aan te geven
+      </li>
+      <li>aria-required voor inputs</li>
+    </ul>
   </div>
 
   <router-link to="/opdracht-2" class="button mt-8">

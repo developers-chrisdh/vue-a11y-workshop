@@ -38,9 +38,9 @@ export default {
 <style lang="scss">
 .program {
   min-width: 320px;
-  border: 3px solid #eee;
+  border: 1px solid #eee;
   padding: 8px 16px;
-  //box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .program table {
@@ -51,7 +51,7 @@ export default {
   }
 
   tr {
-    border-bottom: 2px solid #999;
+    border-bottom: 2px solid #ddd;
   }
 
   td,

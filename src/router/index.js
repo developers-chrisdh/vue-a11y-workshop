@@ -7,7 +7,8 @@ import TaskOne from '@/views/TaskOne/TaskOne.vue';
 import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
 import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
 import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
-import TaskThree from '@/views/AssignmentThree.vue';
+import TaskThree from '@/views/TaskThree/TaskThree.vue';
+import Feedback from '@/views/Feedback.vue';
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: '/opdracht-3',
     name: 'TaskThree',
     component: TaskThree,
+  },
+  {
+    path: '/feedback',
+    name: 'Feedback',
+    component: Feedback,
   },
 ];
 

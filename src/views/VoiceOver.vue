@@ -32,6 +32,12 @@
       target="_blank"
       >Toetscommando's voor NVDA</a
     >
+    <br />
+    <a
+      href="https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1"
+      target="_blank"
+      >Narrator</a
+    >
 
     <hr />
 

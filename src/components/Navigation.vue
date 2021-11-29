@@ -48,6 +48,10 @@ const navLinks = [
     path: '/opdracht-3',
     title: 'Opdracht 3',
   },
+  {
+    path: '/feedback',
+    title: 'Feedback',
+  },
 ];
 
 export default {

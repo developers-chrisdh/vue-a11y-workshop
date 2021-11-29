@@ -7,12 +7,17 @@ export default [
   {
     title: 'Waarom accessibility?',
     path: '/intro',
-    dur: '15 min',
+    dur: '5 min',
   },
   {
     title: 'De basis van VoiceOver',
     path: '/voiceover',
-    dur: '15 min',
+    dur: '10 min',
+  },
+  {
+    title: 'Theorie',
+    path: '/theorie',
+    dur: '5 min',
   },
   {
     title: 'Opdracht 1',
@@ -30,7 +35,8 @@ export default [
     dur: '30 min',
   },
   {
-    title: 'Afsluiting',
-    dur: '30 min',
+    title: 'Feedback',
+    path: '/feedback',
+    dur: '10 min',
   },
 ];
