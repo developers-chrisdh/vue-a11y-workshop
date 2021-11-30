@@ -29,6 +29,10 @@ const navLinks = [
     title: 'Intro',
   },
   {
+    path: '/vue',
+    title: 'Vue',
+  },
+  {
     path: '/voiceover',
     title: 'VoiceOver',
   },

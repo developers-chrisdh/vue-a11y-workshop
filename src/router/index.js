@@ -9,6 +9,7 @@ import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
 import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
 import TaskThree from '@/views/TaskThree/TaskThree.vue';
 import Feedback from '@/views/Feedback.vue';
+import VueExample from '@/views/VueExample.vue';
 
 const routes = [
   {
@@ -60,6 +61,11 @@ const routes = [
     path: '/feedback',
     name: 'Feedback',
     component: Feedback,
+  },
+  {
+    path: '/vue',
+    name: 'Vue',
+    component: VueExample,
   },
 ];
 

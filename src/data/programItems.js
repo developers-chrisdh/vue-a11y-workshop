@@ -10,6 +10,11 @@ export default [
     dur: '5 min',
   },
   {
+    title: 'Vue intro',
+    path: '/viue',
+    dur: '5 min',
+  },
+  {
     title: 'De basis van VoiceOver',
     path: '/voiceover',
     dur: '10 min',
