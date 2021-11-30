@@ -3,30 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier ./src  --write"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "prismjs": "^1.25.0",
+    "vue": "^3.2.16",
+    "vue-prism-component": "^2.0.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.1",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "^4.5.13",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "autoprefixer": "^9.8.6",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0",
-    "postcss": "^7.0.36",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^8.1.1",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
     "sass": "^1.32.8",
-    "sass-loader": "^10.2.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
+    "sass-loader": "^12.3.0",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4"
   },
   "eslintConfig": {
     "root": true,
