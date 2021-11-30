@@ -1,6 +1,6 @@
 <template>
   <div class="prose">
-    <h1>Uitwerking Opdracht 2</h1>
+    <h1>Opdracht 2: "Toegankelijke accordion"</h1>
 
     <div class="userstory">
       <strong>Als</strong> gebruiker met een visuele beperking<br />
