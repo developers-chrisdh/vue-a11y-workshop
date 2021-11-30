@@ -7,7 +7,7 @@ import TaskOne from '@/views/TaskOne/TaskOne.vue';
 // import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
 import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
 // import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
-import TaskThree from '@/views/TaskThree/TaskThree.vue';
+// import TaskThree from '@/views/TaskThree/TaskThree.vue';
 import Feedback from '@/views/Feedback.vue';
 import VueExample from '@/views/VueExample.vue';
 
@@ -52,11 +52,11 @@ const routes = [
   //   name: 'TaskTwoSolution',
   //   component: TaskTwoSolution,
   // },
-  {
-    path: '/opdracht-3',
-    name: 'TaskThree',
-    component: TaskThree,
-  },
+  // {
+  //   path: '/opdracht-3',
+  //   name: 'TaskThree',
+  //   component: TaskThree,
+  // },
   {
     path: '/feedback',
     name: 'Feedback',
