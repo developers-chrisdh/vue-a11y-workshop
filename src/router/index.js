@@ -4,9 +4,9 @@ import Intro from '../views/Intro.vue';
 import VoiceOver from '@/views/VoiceOver.vue';
 import Theorie from '@/views/Theorie.vue';
 import TaskOne from '@/views/TaskOne/TaskOne.vue';
-import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
+// import TaskOneSolution from '@/views/TaskOne/TaskOneSolution.vue';
 import TaskTwo from '@/views/TaskTwo/TaskTwo.vue';
-import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
+// import TaskTwoSolution from '@/views/TaskTwo/TaskTwoSolution.vue';
 import TaskThree from '@/views/TaskThree/TaskThree.vue';
 import Feedback from '@/views/Feedback.vue';
 import VueExample from '@/views/VueExample.vue';
@@ -37,21 +37,21 @@ const routes = [
     name: 'TaskOne',
     component: TaskOne,
   },
-  {
-    path: '/opdracht-1-solution',
-    name: 'TaskOneSolution',
-    component: TaskOneSolution,
-  },
+  // {
+  //   path: '/opdracht-1-solution',
+  //   name: 'TaskOneSolution',
+  //   component: TaskOneSolution,
+  // },
   {
     path: '/opdracht-2',
     name: 'TaskTwo',
     component: TaskTwo,
   },
-  {
-    path: '/opdracht-2-solution',
-    name: 'TaskTwoSolution',
-    component: TaskTwoSolution,
-  },
+  // {
+  //   path: '/opdracht-2-solution',
+  //   name: 'TaskTwoSolution',
+  //   component: TaskTwoSolution,
+  // },
   {
     path: '/opdracht-3',
     name: 'TaskThree',
