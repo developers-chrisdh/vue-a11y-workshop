@@ -11,7 +11,7 @@ export default [
   },
   {
     title: 'Vue intro',
-    path: '/viue',
+    path: '/vue',
     dur: '5 min',
   },
   {
